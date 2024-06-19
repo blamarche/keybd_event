@@ -227,7 +227,7 @@ func (k *KeyBonding) Launching() error {
 	return nil
 }
 func keyEventSet() error {
-	for i := 0; i < 256; i++ {
+	for i := 0; i < 336; i++ {
 		_, _, errCall := syscall.Syscall(syscall.SYS_IOCTL, fd.Fd(), _UI_SET_KEYBIT, uintptr(i))
 		if errCall != 0 {
 			return errCall
