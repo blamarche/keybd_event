@@ -1,3 +1,3 @@
-module github.com/micmonay/keybd_event
+module github.com/blamarche/keybd_event
 
 go 1.16
